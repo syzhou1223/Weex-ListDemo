@@ -1,0 +1,38 @@
+{
+  "name": "eeui",
+  "version": "2.4.0",
+  "summary": "eeui plugin.",
+  "description": "eeui plugin.",
+  "homepage": "https://eeui.app",
+  "license": "MIT",
+  "authors": {
+    "kuaifan": "aipaw@live.cn"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": [
+    "eeui",
+    "**/**/*.{h,m,mm,c}"
+  ],
+  "exclude_files": "Source/Exclude",
+  "resources": [
+    "eeui/Source/*.*",
+    "eeui/Utility/CCNScan/CodeScan.bundle",
+    "eeui/Utility/MJRefresh/MJRefresh.bundle",
+    "eeui/Utility/IQKeyboardManager/Resources/IQKeyboardManager.bundle"
+  ],
+  "prefix_header_file": "eeui/Utility/PrefixHeader.pch",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "dependencies": {
+    "WeexSDK": [
+
+    ],
+    "WeexPluginLoader": [
+      "~> 0.0.1.9.1"
+    ]
+  }
+}

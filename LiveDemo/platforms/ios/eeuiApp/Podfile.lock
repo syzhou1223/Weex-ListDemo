@@ -1,0 +1,40 @@
+PODS:
+  - BindingX (1.0.3):
+    - WeexPluginLoader
+    - WeexSDK
+  - eeui (2.4.0):
+    - WeexPluginLoader (~> 0.0.1.9.1)
+    - WeexSDK
+  - SocketRocket (0.5.1)
+  - WeexPluginLoader (0.0.1.9.1):
+    - WeexSDK
+  - WeexSDK (0.28.0)
+
+DEPENDENCIES:
+  - BindingX (~> 1.0.3)
+  - eeui (from `../../../plugins/eeui/framework/ios`)
+  - SocketRocket (= 0.5.1)
+  - WeexSDK (from `../../../plugins/eeui/WeexSDK`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BindingX
+    - SocketRocket
+    - WeexPluginLoader
+
+EXTERNAL SOURCES:
+  eeui:
+    :path: "../../../plugins/eeui/framework/ios"
+  WeexSDK:
+    :path: "../../../plugins/eeui/WeexSDK"
+
+SPEC CHECKSUMS:
+  BindingX: b3c6c1c5dcd8e50277cfc5daad09d7010c227524
+  eeui: 0481f27a28997bcd044c8a584ed3b4f4eef5098c
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
+  WeexSDK: b5aeb4a7dda0f1bd3b912b69139f0417cdf35a90
+
+PODFILE CHECKSUM: 59baf6a47cd1827afde5b9ae5d428877146794ca
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,1 @@
+../../../../../../../plugins/eeui/WeexSDK/weex_core/Source/core/bridge/eagle_bridge.h
