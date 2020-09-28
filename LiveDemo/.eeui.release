@@ -1,0 +1,8 @@
+{
+	"name": "LiveDemo",
+	"appName": "LiveDemo",
+	"applicationID": "com.coocaa.livedemo",
+	"bundleIdentifier": "com.coocaa.livedemo",
+	"release": "2.4.0",
+	"location": "github"
+}
